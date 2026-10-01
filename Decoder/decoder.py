@@ -18,7 +18,7 @@ def decode_secret_message(URL):
           return
 
       rows = table.find_all('tr')
-
+      
       # Dictionary to map (x,y) coordinates to characters
       data_points = {}
       max_x = 0
